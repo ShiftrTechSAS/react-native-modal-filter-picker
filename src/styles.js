@@ -45,7 +45,7 @@ export default StyleSheet.create({
     borderRadius: 0,
     marginBottom: 15
   },
-  cancelContainer: {
+  actionsContainer: {
     flex: 0,
     flexDirection: 'row',
     justifyContent: 'center',
