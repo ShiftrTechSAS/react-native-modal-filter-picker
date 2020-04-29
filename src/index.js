@@ -18,7 +18,7 @@ import styles from './styles'
 
 export default class ModalFilterPicker extends Component {
   static keyExtractor(item) {
-    return item.key
+    return item.key.toString()
   }
 
   constructor(props, ctx) {
